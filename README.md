@@ -17,7 +17,7 @@ https://hikariotsuka.github.io/My-Portfolio/
 ポートフォリオに記載している作品は以下のURLからご確認いただけます。
 
 https://github.com/Hikari-Otsuka/AI-Talker.git
-https://github.com/Hikari-Otsuka/Candy.git
+<br>https://github.com/Hikari-Otsuka/Candy.git
 
 ～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～
 
