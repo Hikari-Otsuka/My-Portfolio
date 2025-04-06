@@ -14,8 +14,9 @@ Webポートフォリオをご覧になる方は以下のURLからご確認い�
 
 https://hikariotsuka.github.io/My-Portfolio/
 
-ポートフォリオに記載している開発したゲームのプロジェクトデータは以下のURLからご確認いただけます。
+ポートフォリオに記載している作品は以下のURLからご確認いただけます。
 
+https://github.com/Hikari-Otsuka/AI-Talker.git
 https://github.com/Hikari-Otsuka/Candy.git
 
 ～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～
