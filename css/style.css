@@ -1,0 +1,398 @@
+@charset "UTF-8";
+html {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* 横方向にスクロールバーが出ないようにする */
+}
+canvas {
+    width: 100%;
+    height: 100%;
+}
+a {
+    text-decoration: none; /*リンクの下線を取り除く*/
+}
+img {
+    max-width: 100%;
+}
+li {
+    list-style: none;
+}
+.wrapper {
+    max-width: 55%;
+    margin: 0 auto 20px auto;
+}
+.site-title {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #2d2a29;
+    font-size: 3.5rem;
+}
+.sec-title {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #2d2a29;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.team-title {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #2d2a29;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+/*-------------------------------------------
+背景
+-------------------------------------------*/
+#particles-js {
+    position: fixed;
+    z-index: -2;
+    width: 100%; /* 画面幅いっぱい */
+    height: 100%; /* 画面高さいっぱい */
+    background-color: #efe9e6;
+}
+#wrapper {
+    position: relative;
+    z-index: -1;
+    width: 100%; /* 画面幅いっぱい */
+    height: 100%; /* 画面高さいっぱい */
+}
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+#header a {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #2d2a29;
+}
+.nav_pc {
+    display: flex; /* 描画固定 */
+    flex-direction: column; /* 要素を縦方向に配置 */
+    justify-content: space-between; /* 要素を縦方向に均等に配置 */
+    padding-top: 80px; /* 上方向の余白の大きさ */
+    padding-bottom: 20px; /* 上方向の余白の大きさ */
+}
+.nav_pc ul {
+    display: flex; /* 描画固定 */
+    justify-content: flex-end;
+    padding-top: 20px; /* 上方向の余白の大きさ */
+    font-size: 2rem;
+}
+.nav_pc li {
+    padding-left: 4%; /* 左方向の余白の大きさ */
+}
+.nav_sp {
+    display: none;
+}
+/*-------------------------------------------
+Mainvisual
+-------------------------------------------*/
+#mainvisual {
+    width: 100vw;
+    height: 46vh;
+    overflow: hidden;
+}
+ #mainvisual img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden; /* 画像がはみ出しても表示しない */
+ }
+/*-------------------------------------------
+About
+-------------------------------------------*/
+#about pre {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    color: #2d2a29;
+    font-size: 100%;
+    margin-bottom: 20px;
+}
+#about ul {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    color: #2d2a29;
+    font-size: 100%;
+}
+#about p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    color: #2d2a29;
+    font-size: 100%;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.nav_sp_career1 {
+    display: none;
+}
+.nav_sp_career2 {
+    display: none;
+}
+/*-------------------------------------------
+skill
+-------------------------------------------*/
+.nav_skill {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nav_skillchill {
+    display: flex; /* 描画固定 */
+    flex-direction: column; /* 要素を縦方向に配置 */
+    justify-content: space-between; /* 要素を縦方向に均等に配置 */
+}
+#skill ul {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    color: #2d2a29;
+    font-size: 100%;
+    margin-bottom: 20px;
+}
+/*-------------------------------------------
+Works
+-------------------------------------------*/
+#works ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+#works li {
+    width: 32%;
+    margin-bottom: 23px;
+    font-size: 100%;
+    text-align: center;
+}
+/*-------------------------------------------
+Top
+-------------------------------------------*/
+#toTop a {
+    position: fixed; /* 描画固定 */
+    bottom: 40px;
+    right: 40px;
+    cursor: pointer;
+    color: #2d2a29;
+}
+#toTop:hover {
+    opacity: 0.7;
+}
+/*-------------------------------------------
+footer
+-------------------------------------------*/
+#footer {
+    background-color: #2d2a29;
+    color: #efe9e6;
+    padding: 2px 20px;
+    text-align: center;
+}
+/*-------------------------------------------
+SP
+-------------------------------------------*/
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 16px;
+    }
+    .wrapper {
+        max-width: 80%;
+        margin: 0 auto 20px auto;
+    }
+    .site-title {
+        font-family: "Kaushan Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+        color: #2d2a29;
+        margin-top: 20px;
+        font-size: 2.7rem;
+    }
+    .sec-title {
+        font-family: "Kaushan Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+        color: #2d2a29;
+        margin-bottom: 20px;
+        font-size: 2.5rem;
+    }
+    .team-title {
+        font-family: "Noto Sans JP", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #2d2a29;
+        font-size: 1.8rem;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+  /*-------------------------------------------
+  SPヘッダー
+  -------------------------------------------*/
+    .nav_pc {
+        display: none;
+    }
+    .nav_sp {
+        max-width: 600px;
+        display: flex;
+        align-items: center;
+        height: 150px;
+    }
+    .openbtn_sp {
+        display: block;
+        position: relative;
+        top: 53px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        position: fixed;
+        cursor: pointer;
+        z-index: 3;
+        color: #2d2a29;
+    }
+    .openbtn_sp i {
+        display: inline-block;
+        transition: transform .5s, opacity .5s;
+        position: absolute;
+        top: 10px;
+        left: 12px;
+        height: 2px;
+        width: 41px;
+        background-color: #2d2a29;
+        border-radius: 5px;
+    }
+    .openbtn_sp i:nth-child(1) {
+        top: 13px;
+    }
+    .openbtn_sp i:nth-child(2) {
+        top: 23px;
+    }
+    .openbtn_sp i:nth-child(3) {
+        top: 33px;
+    }
+    .openbtn_sp i:nth-child(3)::after {
+        font-family: "Noto Sans JP", sans-serif;
+        font-style: normal;
+        content: "MENU";
+        top: 5px;
+        font-size: 0.9rem;
+        text-align: center;
+        color: #2d2a29;
+    }
+    .openbtn_sp.show i:nth-child(1) {
+        transform: translateY(9px) rotate(-45deg);
+    }
+    .openbtn_sp.show i:nth-child(2) {
+        opacity: 0;
+    }
+    .openbtn_sp.show i:nth-child(3) {
+        transform: translateY(-10px) rotate(45deg);
+    }
+    .openbtn_sp.show i:nth-child(3)::after {
+        font-family: "Noto Sans JP", sans-serif;
+        font-style: normal;
+        content: "CLOSE";
+        transform: translateY(0) rotate(-45deg);
+        position: absolute;
+        top: 10px;
+        left: 17px;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    /*メニュリストクリック前*/
+    .nav {
+        padding: 1rem;
+        visibility: hidden;
+    }
+    .nav.show {
+        opacity: 0.85;
+        visibility: visible;
+    }
+    .navigation_sp {
+        font-family: "Kaushan Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: #2d2a29;
+        position: fixed;
+        padding: 40px 0;
+        margin-top: -110px;
+        flex-direction: column;
+        background-color: #efe9e6;
+        z-index: 3;
+        width: 50%;
+    }
+    .navigation_sp li {
+        height: 10vh;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+        margin-top: 60px;
+        margin-bottom: -80px;
+    }
+    /*-------------------------------------------
+    SPMainvisual
+    -------------------------------------------*/
+    #mainvisual {
+        width: 100vw;
+        height: 30vh;
+        overflow: hidden;
+    }
+    #mainvisual img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    /*-------------------------------------------
+    SPAout
+    -------------------------------------------*/
+    .nav_pc_career {
+        display: none;
+    }
+    .nav_sp_career1 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-bottom: 15px;
+    }
+    .nav_sp_content1 {
+        width: 25%; /* もしくは 50% でもOK、間に余白入れるなら48%ぐらいがベスト */
+    }
+    .nav_sp_content2 {
+        width: 75%; /* もしくは 50% でもOK、間に余白入れるなら48%ぐらいがベスト */
+    }
+    .nav_sp_career2 {
+        padding-top: 40px;
+        display: block;
+    }
+    /*-------------------------------------------
+    Works
+    -------------------------------------------*/
+    #works li {
+        width: 100%;
+        margin-top: 40px;
+        text-align: center;
+    }
+    /*-------------------------------------------
+    Top
+    -------------------------------------------*/
+    #toTop a {
+        position: fixed; /* 描画固定 */
+        bottom: 40px;
+        right: 20px;
+        cursor: pointer;
+        color: #2d2a29;
+    }
+    #toTop:hover {
+        opacity: 0.7;
+    }
+}
