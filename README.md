@@ -16,7 +16,7 @@ https://hikariotsuka.github.io/My-Portfolio/
 
 ポートフォリオに記載している開発したゲームのプロジェクトデータは以下のURLからご確認いただけます。
 
-～URL～
+https://github.com/Hikari-Otsuka/Candy.git
 
 ～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～
 
