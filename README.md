@@ -12,7 +12,7 @@
 
 Webポートフォリオをご覧になる方は以下のURLからご確認いただけます。
 
-https://hikariotsuka.github.io/My-Portfolio/
+https://hikari-otsuka.github.io/My-Portfolio/
 
 ポートフォリオに記載している作品は以下のURLからご確認いただけます。
 
